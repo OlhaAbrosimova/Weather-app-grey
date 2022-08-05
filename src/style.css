@@ -1,0 +1,147 @@
+body {
+	max-width: 600px;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(167, 151, 151, 0.212);
+}
+
+.weather-app {
+	margin-top: 30px;
+	border: 3px solid rgba(178, 253, 238, 0.96);
+	border-radius: 7px;
+	background: linear-gradient(
+		65.9deg,
+		rgba(178, 253, 238, 0.96) -8.1%,
+		rgb(207, 244, 254) 26.3%,
+		rgba(207, 244, 254, 0.48) 47.5%,
+		rgba(254, 219, 243, 0.63) 61.5%,
+		rgb(254, 219, 243) 78.7%,
+		rgb(254, 207, 210) 109.2%
+	);
+}
+
+.current-geo-btn {
+	color: #ad1fa2cc;
+	border: 0px solid #d887d1cc;
+	border-radius: 5px;
+	background-color: #d887d1cc;
+	margin: 20px 10px;
+	width: 32%;
+	line-height: 200%;
+}
+.type-city-form {
+	border: 1px solid #d887d1cc;
+	border-radius: 4px;
+	margin: 0 0 0px 10px;
+	width: 70%;
+	padding-left: 8px;
+}
+
+.type-city-form:focus-within {
+	background: #dfaadacc;
+	color: black;
+	outline: none;
+}
+.type-city-form,
+.search-btn {
+	height: 40px;
+}
+.search-btn {
+	color: #ad1fa2cc;
+	font-weight: bold;
+	background-color: white;
+	border: 1px solid #d887d1cc;
+	border-radius: 4px;
+	width: 26%;
+	margin-right: 0px;
+}
+
+.search-btn:hover {
+	background-color: #d887d1cc;
+}
+h1 {
+	margin-left: 10px;
+
+	font-size: 50px;
+}
+
+.weather-metrics {
+	list-style: none;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	font-size: 13px;
+}
+
+.city-flex {
+	padding-top: 13px;
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+}
+.base-temp-block {
+	margin: 17px 15px 17px;
+}
+.weather-temperature {
+	text-align: right;
+}
+.weather-temperature img {
+	margin-right: 5px;
+	height: 64px;
+	width: 64px;
+	position: relative;
+	bottom: 30px;
+}
+
+.base-temperature {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 100px;
+	position: relative;
+	bottom: 5px;
+
+	font-weight: 200px;
+}
+
+.celsius,
+.farenheit {
+	position: relative;
+	top: -59px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.forecast {
+	text-align: center;
+}
+
+.night-degree {
+	color: grey;
+}
+
+.weather-temperature .active {
+	color: black;
+	cursor: default;
+	text-decoration: none;
+}
+
+.weather-forecast {
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.weather-forecast-date {
+	font-size: 16px;
+	color: black;
+	opacity: 0.5;
+}
+
+.weather-forecast-temp-min {
+	color: black;
+	opacity: 0.5;
+}
+
+.git {
+	color: black;
+}

@@ -195,7 +195,6 @@ currentGeo.addEventListener("click", getPosition);
 
 let units = "metric";
 let cityForUnits;
-let speed = document.querySelector("#wind-speed");
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
